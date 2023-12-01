@@ -1,3 +1,4 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.12/css/weather-icons.min.css);
 .App {
   text-align: center;
 }
@@ -36,3 +37,51 @@
     transform: rotate(360deg);
   }
 }
+
+@media (max-width:1000px){
+  .sarea{
+    width: fit-content;
+  }
+  .sbtn{
+    width: fit-content;
+  }
+  .search{
+    margin-right:140px;
+  }
+  .temperature{
+  font-size: 20px;
+}
+.weatherinfo{
+  gap: 2px;
+}
+.info h1{
+  font-size: 15px;
+}
+.date h1{
+  font-size: 15px;
+}
+.midarea{
+  height: 100px;
+}
+.bottom{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  
+}
+.bottom p{
+  font-size: 20px;
+}
+.container{
+  height: 600px;
+}
+.upperdisplay{
+  height: 200px;
+}
+.extra{
+ 
+  width: auto;
+}
+}
+
